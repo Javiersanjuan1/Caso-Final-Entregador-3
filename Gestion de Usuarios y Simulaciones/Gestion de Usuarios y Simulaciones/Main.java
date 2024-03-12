@@ -3,7 +3,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 class Gestion_de_Usuarios_y_Simulaciones {
-    // Base de datos simulada para usuarios autorizados
     private static Map<String, String> usuarios = new HashMap<>();
 
     public static void main(String[] args) {
@@ -11,7 +10,6 @@ class Gestion_de_Usuarios_y_Simulaciones {
         app.iniciar();
     }
 
-    // Método para iniciar la aplicación
     public void iniciar() {
         inicializarUsuarios(); // Inicializar la base de datos de usuarios
 

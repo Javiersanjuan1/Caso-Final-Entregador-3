@@ -101,7 +101,6 @@ public class Main {
     public static void main(String[] args) {
         Ambiente ambiente = new Ambiente("Templado", "Bosque");
 
-        // Añadir recursos al ambiente
         ambiente.agregarRecurso("Agua");
         ambiente.agregarRecurso("Sol");
 

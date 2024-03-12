@@ -2,7 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-// Clase principal que representa la aplicación de simulación
 class Gestion_de_Usuarios_y_Simulaciones {
     // Base de datos simulada para usuarios autorizados
     private static Map<String, String> usuarios = new HashMap<>();

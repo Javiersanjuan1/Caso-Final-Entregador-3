@@ -1,7 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
 
-// Clase principal que integra la resolución de problemas, visualización de datos tegración de funciones
 public class AnalisisAvanzado {
 
     // Resolución de problemas: algoritmo de búsqueda de equilibrios ecológicos

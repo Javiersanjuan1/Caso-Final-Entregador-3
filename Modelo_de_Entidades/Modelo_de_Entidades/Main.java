@@ -27,29 +27,20 @@ class Organismo {
     }
 }
 
-// Clase para plantas
 class Planta extends Organismo {
     // Constructor
     public Planta(int posicionX, int posicionY, int salud, int edad, boolean estadoReproductivo) {
         super(posicionX, posicionY, salud, edad, estadoReproductivo);
     }
 
-    // Otros métodos específicos para plantas
-    // ...
 }
 
-// Clase para animales
 class Animal extends Organismo {
     // Constructor
     public Animal(int posicionX, int posicionY, int salud, int edad, boolean estadoReproductivo) {
         super(posicionX, posicionY, salud, edad, estadoReproductivo);
     }
-
-    // Otros métodos específicos para animales
-    // ...
 }
-
-// Clase para el ambiente
 class Ambiente {
     private String clima;
     private String terreno;
@@ -61,31 +52,16 @@ class Ambiente {
         this.terreno = terreno;
         this.recursosDisponibles = new ArrayList<>();
     }
-
-    // Métodos getter y setter
-    // ...
-
-    // Método para añadir recursos al ambiente
     public void agregarRecurso(String recurso) {
         this.recursosDisponibles.add(recurso);
     }
-
-    // Otros métodos relevantes para el ambiente
-    // ...
-
-    // Método para simular la interacción de predación
     public void predacion(Animal depredador, Animal presa) {
-        // Implementar la lógica de predación
     }
 
-    // Método para simular la competencia por recursos
     public void competencia(List<Animal> animales, List<Planta> plantas) {
-        // Implementar la lógica de competencia por recursos
     }
 
-    // Método para simular la polinización
     public void polinizacion(Planta planta1, Planta planta2) {
-        // Implementar la lógica de polinización
     }
 }
 

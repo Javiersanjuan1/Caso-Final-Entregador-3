@@ -99,7 +99,6 @@ class Ambiente {
 
 public class Main {
     public static void main(String[] args) {
-        // Ejemplo de uso de las clases
         Ambiente ambiente = new Ambiente("Templado", "Bosque");
 
         // Añadir recursos al ambiente

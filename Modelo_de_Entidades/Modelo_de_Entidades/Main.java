@@ -104,7 +104,6 @@ public class Main {
         ambiente.agregarRecurso("Agua");
         ambiente.agregarRecurso("Sol");
 
-        // Crear organismos
         Animal leon = new Animal(10, 10, 100, 5, true);
         Animal cebra = new Animal(20, 20, 80, 4, true);
         Planta rosa = new Planta(5, 5, 50, 2, true);

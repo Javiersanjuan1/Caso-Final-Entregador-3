@@ -23,8 +23,6 @@ class Organismo {
     public void actualizarSalud(int cantidad) {
         this.salud += cantidad;
         if (this.salud <= 0) {
-            // El organismo muere
-            // Implementar lógica de muerte según tu necesidad
         }
     }
 

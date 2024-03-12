@@ -19,10 +19,7 @@ class Organismo {
         this.estadoReproductivo = estadoReproductivo;
     }
 
-    // Métodos getter y setter
-    // ...
 
-    // Método para actualizar la salud del organismo
     public void actualizarSalud(int cantidad) {
         this.salud += cantidad;
         if (this.salud <= 0) {

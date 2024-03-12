@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Analisis avanzado/Analisis avanzado.iml" filepath="$PROJECT_DIR$/Analisis avanzado/Analisis avanzado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Caso-Final-Entregador-3.iml" filepath="$PROJECT_DIR$/.idea/Caso-Final-Entregador-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gestion de Usuarios y Simulaciones/Gestion de Usuarios y Simulaciones.iml" filepath="$PROJECT_DIR$/Gestion de Usuarios y Simulaciones/Gestion de Usuarios y Simulaciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modelo_de_Entidades/Modelo_de_Entidades.iml" filepath="$PROJECT_DIR$/Modelo_de_Entidades/Modelo_de_Entidades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simulador_de_Dinamicas_Poblacionales/Simulador_de_Dinamicas_Poblacionales.iml" filepath="$PROJECT_DIR$/Simulador_de_Dinamicas_Poblacionales/Simulador_de_Dinamicas_Poblacionales.iml" />
+    </modules>
+  </component>
+</project>

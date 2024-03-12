@@ -25,9 +25,6 @@ class Organismo {
         if (this.salud <= 0) {
         }
     }
-
-    // Otros métodos relevantes para los organismos
-    // ...
 }
 
 // Clase para plantas

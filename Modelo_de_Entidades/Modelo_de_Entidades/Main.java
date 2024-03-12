@@ -109,7 +109,6 @@ public class Main {
         Planta rosa = new Planta(5, 5, 50, 2, true);
         Planta girasol = new Planta(15, 15, 60, 3, true);
 
-        // Simular interacciones
         ambiente.predacion(leon, cebra);
         ambiente.competencia(List.of(leon, cebra), List.of(rosa, girasol));
         ambiente.polinizacion(rosa, girasol);
